@@ -1,0 +1,10 @@
+.addproject-container {
+  min-height: 100%;
+}
+
+.addproject-card {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+  background: #fff;
+}

@@ -1,0 +1,18 @@
+/* Full height under navbar */
+.login-container {
+  min-height: calc(100vh - 56px); /* 56px = default Bootstrap navbar height */
+  overflow-y: hidden; /* remove vertical scrollbar */
+  padding-top: 20px; /* small spacing from navbar */
+}
+
+/* Wider card */
+.login-card {
+  width: 500px; /* increased width */
+  max-width: 90%; /* keep it responsive */
+  border-radius: 12px;
+}
+
+.login-card h2 {
+  font-weight: 600;
+  color: #0d6efd;
+}
